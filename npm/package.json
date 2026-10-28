@@ -1,0 +1,40 @@
+{
+  "name": "sixteensquad",
+  "version": "0.1.0",
+  "description": "SixteenSquad Starter: 1 coordenador, 15 especialistas e 16 skills para Codex",
+  "type": "module",
+  "bin": {
+    "sixteensquad": "bin/cli.mjs"
+  },
+  "files": [
+    "bin/cli.mjs",
+    "payload/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "prepack": "node scripts/build-payload.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "codex",
+    "agents",
+    "skills",
+    "multi-agent",
+    "starter"
+  ],
+  "license": "MIT",
+  "author": "Adriano Medeiros",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adriano-Medeiros/SixteenSquad.git",
+    "directory": "npm"
+  },
+  "homepage": "https://github.com/Adriano-Medeiros/SixteenSquad",
+  "bugs": {
+    "url": "https://github.com/Adriano-Medeiros/SixteenSquad/issues"
+  }
+}

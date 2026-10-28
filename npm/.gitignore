@@ -1,0 +1,3 @@
+payload/
+*.tgz
+node_modules/
